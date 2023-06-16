@@ -1,0 +1,25 @@
+--find-links https://download.pytorch.org/whl/cpu
+torch==2.0.1
+
+
+--find-links https://data.pyg.org/whl/torch-2.0.0+cpu.html
+pyg_lib==0.2.0+pt20cpu
+torch_cluster==1.6.1+pt20cpu
+torch_scatter==2.1.1+pt20cpu
+torch_sparse==0.6.17+pt20cpu
+torch_spline_conv==1.2.2+pt20cpu
+
+--find-links https://data.dgl.ai/wheels/cu118/repo.html
+--find-links https://data.dgl.ai/wheels-test/repo.html
+dgl==1.1.0
+dglgo==0.0.2
+
+pytorch-lightning==2.0.2
+torch_geometric==2.3.1
+pyemd==1.0.0
+tabulate==0.9.0
+umap-learn==0.5.3
+seaborn==0.12.2
+pygsp==0.5.1
+ipympl==0.9.3
+tabulate==0.9.0
